@@ -23,9 +23,8 @@ p {
 div.content {
     width: 50%;
     max-width: 1080px;
-
     margin: 1em auto;
-    
+    font-size: 1.1em;
 }
 /*navigation bar*/
 nav {
