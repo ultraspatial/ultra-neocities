@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+
+    <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body>
+<nav>
+    <a href="/index.html">[ultra.]</a>
+    <a href="/page/about">about</a>
+    <a href="/page/things">things</a>
+    <a href="/page/projects">projects</a>
+    <a href="/page/blog">writing</a>
+</nav>
+<div class="content">
+    {{ content | safe }}
+</div>
+</body>
+</html>

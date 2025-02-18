@@ -1,0 +1,24 @@
+{
+  "name": "ultra-neocities",
+  "version": "1.0.0",
+  "description": "This is the public repository for my [Neocities website](https://ultraspatial.neocities.org/). This repo uses [Deploy-to-Neocities Template](https://github.com/burned-salmon/deploy-to-neocities-template) to automatically sync the Neocities website with the files in the repo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultraspatial/ultra-neocities.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ultraspatial/ultra-neocities/issues"
+  },
+  "homepage": "https://github.com/ultraspatial/ultra-neocities#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

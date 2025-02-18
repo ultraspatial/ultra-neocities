@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+/*variables*/
+:root {
+    --bgcolor: #EF303B;
+    --primcolor: #481C19;
+    --navcolor: #481C19;
+  }
+
+
+body {
+    background-color: var(--bgcolor);
+    color: var(--primcolor);
+    margin: 0;
+    font-family: "Radio Canada Big", serif;
+    font-weight: 400;
+
+}
+h1 {
+    font-family: "Instrument Serif", serif;
+    font-size: 4em;
+    margin: 0;
+}
+p{
+  margin: 0;
+}
+div.content {
+    text-align: center;
+    height: 40rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*navigation bar*/
+nav {
+    overflow: hidden;
+    background-color: var(--navcolor);
+}
+nav a {
+    font-size: x-large;
+    font-weight: 600;
+    float: left;
+    color: var(--bgcolor);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
