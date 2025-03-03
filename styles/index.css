@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
 /*variables*/
 :root {
-    --bgcolor: #EF303B;
-    --primcolor: #481C19;
-    --navcolor: #481C19;
+    --bgcolor: #000000;
+    --textcolor: #ffffff;
+    --linkcolor: blue;
   }
-
 
 body {
     background-color: var(--bgcolor);
-    color: var(--primcolor);
+    color: var(--textcolor);
     margin: 0;
     font-family: "Radio Canada Big", serif;
     font-weight: 400;
-
+    font-size: smaller;
 }
 h1 {
     font-family: "Instrument Serif", serif;
-    font-size: 4em;
+    font-size: 5em;
     margin: 0;
 }
 p{
@@ -36,14 +36,19 @@ div.content {
 /*navigation bar*/
 nav {
     overflow: hidden;
-    background-color: var(--navcolor);
+    background-color: var(--bgcolor);
+    border-bottom: 2px solid #aaa;
 }
 nav a {
-    font-size: x-large;
+    font-size: 1.6em;
     font-weight: 600;
     float: left;
-    color: var(--bgcolor);
+    color: var(--textcolor);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+nav a:hover {
+    background-color: var(--textcolor);
+    color: var(--bgcolor);
 }

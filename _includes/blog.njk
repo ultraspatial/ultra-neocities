@@ -14,9 +14,21 @@
     <a href="/src/things">things</a>
     <a href="/src/projects">projects</a>
     <a href="/src/blog">writing</a>
+
 </nav>
+
 <div class="content">
-    {{ content | safe }}
+  <h1>Stuff I've Written</h1>
+        <hr>
+        {% for writing in collections.writing %}
+        <div class="blogpost">
+        <a href="{{ writing.url }}"><h2>{{ writing.data.title }}</h1></a>
+        <p>{{writing.data.createdDate}} - {{writing.data.desc}}</p>
+        <hr>
+        </div>
+    {% endfor %}
+
+
 </div>
 </body>
 </html>
